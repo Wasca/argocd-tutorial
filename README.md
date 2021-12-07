@@ -1,4 +1,4 @@
-# ARGOCD TUTORIAL
+# ArgoCD Tutorial
 #### Commands
 
 ```bash
