@@ -6,10 +6,13 @@ metadata:
 spec:
   project: default
 
+  # The application code base (i.e. github or gitlab etc...)
   source:
-    repoURL: https://gitlab.com/nanuchi/argocd-app-config.git
+    repoURL: https://github.com/Wasca/argocd-tutorial.git
     targetRevision: HEAD
     path: dev
+  
+  # The Destination K8 Cluster
   destination: 
     server: https://kubernetes.default.svc
     namespace: myapp
